@@ -44,3 +44,8 @@ class Granja
         "Nombre de la granja: #{@identificador}, Huella: #{@huellas}, Conjunto de animales: #{@conjunto_animales}"
     end
 end
+
+=begin
+Hay que tener en cuenta que la jerarquía de herencia de este caso, se basa principalmente en:
+BasicObject => Object => Granja, Animales, Array, Numeric => Integer, Float
+=end

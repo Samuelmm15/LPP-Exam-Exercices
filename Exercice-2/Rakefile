@@ -1,0 +1,6 @@
+task :default => :test_simple
+
+describe "Ejecucion de toda la bateria de pruebas"
+task :test_simple do
+    sh "rspec ./spec/animal_spec.rb --format documentation"
+end
