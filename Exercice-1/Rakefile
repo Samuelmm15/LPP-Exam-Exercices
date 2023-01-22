@@ -1,0 +1,7 @@
+task :default => :animal
+
+desc "Baterias de pruebas asociadas a los distitnos animales"
+task :animal do
+    sh "ruby -I. test/tc_animals.rb"
+    sh "ruby -I. test/tc_farm.rb"
+end
