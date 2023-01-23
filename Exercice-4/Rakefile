@@ -1,0 +1,6 @@
+task :default => :bateria_tests
+
+desc "Batería de tests asociados a la implementación de la función de orden superior"
+task :bateria_tests do
+    sh "rspec spec/indicador_contaminacion_spec.rb --format documentation"
+end
