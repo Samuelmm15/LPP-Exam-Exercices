@@ -1,0 +1,6 @@
+task :default => :test_cooperativa
+
+desc "Esto es una batería de tests correspondientes a la implementación de una función de orden superior para una cooperativa de Granjas"
+task :test_cooperativa do
+    sh "ruby -I. test/tc_cooperativa.rb"
+end
