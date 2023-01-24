@@ -1,0 +1,7 @@
+task :default => :testRSPEC
+
+desc "Ejecución de las espectativas realizadas mediante RSPEC"
+
+task :testRSPEC do
+    sh "rspec spec/CooperativaDSL_spec.rb"
+end
