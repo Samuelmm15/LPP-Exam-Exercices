@@ -20,7 +20,7 @@ end
 
 # Se debe de redefinir la funcion suma ya que esta se presenta como la opcion para que la funcion sea polimorfica de manera real
 def +(other)
-    Cooperativa.new(....., @conjunto_restauradores.collect { |restaurador| restaurador = other })
+    Cooperativa.new(....., @conjunto_restauradores.collect { |restaurador| restaurador + other })
 end
 
 =begin
